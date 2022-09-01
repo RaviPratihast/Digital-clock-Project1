@@ -44,6 +44,7 @@ body{
 .clock-container{
     display: flex;
 
+    border: 2px solid black;
     /* position: relative; */
    
 }
@@ -61,7 +62,7 @@ body{
     /* padding: 2rem; */
 
  
-    background: slateblue;
+    background: #06b6d4;
     opacity: 0.5;
 
   
@@ -77,6 +78,8 @@ body{
     
 
     text-shadow: 2px 2px 4px rgba(0,0,0,1);
+
+   
     
 } 
 
@@ -86,13 +89,13 @@ body{
     font-size: 17px;
     text-transform: uppercase;
     letter-spacing:2px;
-    background-color: darkblue;
+    background-color: #0d9488;
     opacity: 0.6;
 }
 
     
 .clock-container .AM-PM-text{
-    position: absolute;
+    /* position: absolute; */
     bottom: 0;
     height: 50px;
     width: 50px;
