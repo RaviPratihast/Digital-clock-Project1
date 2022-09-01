@@ -1,0 +1,117 @@
+/* Reseting the default styles */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+
+    height: 100vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    /* margin: 2rem; */
+
+    font-family: sans-serif;
+    background-image: linear-gradient(#0369a1,#7dd3fc);
+
+
+
+
+}
+
+/* title of the clock */
+
+.title-heading{
+
+    text-transform: uppercase;
+    letter-spacing: 5px;
+
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,1);
+    
+
+   
+}
+
+/* main clock */
+
+.clock-container{
+    display: flex;
+    /* flex-direction:row; */
+    /* gap:1rem; */
+    /* flex-wrap: wrap; */
+    /* margin: 1rem; */
+
+    /* border: 2px solid rgb(214, 146, 146); */
+}
+
+.clock-container div{
+    /* border: 2px solid black; */
+    /* width: 100%; */
+    /* height: 100%; */
+
+
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
+    /* gap: 0.5rem; */
+
+
+    /* padding: 1rem; */
+    
+    
+    margin: 5px;
+}
+
+.clock-container span{
+    height: 80px;
+    width: 100px;
+
+    /* text-align: center; */
+    /* display: flex; */
+    /* justify-content: center;
+    align-items: center;
+ */
+    background: slateblue;
+    opacity: 0.5;
+
+    /* padding: 0.5rem 1rem; */
+    /* overflow: hidden; */
+
+    display: flex;
+    /* flex-direction:column; */
+    justify-content: center;
+    align-items: center;
+    
+
+    font-size: 50px;
+    color: white;
+    
+
+    text-shadow: 2px 2px 4px rgba(0,0,0,1);
+    
+} 
+
+
+.clock-container .text{
+    height: 30px;
+    font-size: 17px;
+    text-transform: uppercase;
+    letter-spacing:2px;
+    background-color: darkblue;
+    opacity: 0.4;
+}
+
+    
+
+
+
+
+
+
